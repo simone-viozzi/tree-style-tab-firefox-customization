@@ -1,0 +1,27 @@
+
+
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+
+/* Hide horizontal tabs at the top of the window */
+#tabbrowser-tabs {
+  visibility: collapse !important;
+}
+
+
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+#aHTMLTooltip {
+  display: none !important
+}
+
+/* leaves space for the window buttons */
+#nav-bar {
+    margin-top: -30px;
+    margin-right: 139px;
+	height: 29px !important;
+}
