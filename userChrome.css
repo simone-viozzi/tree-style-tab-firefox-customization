@@ -4,7 +4,6 @@
   display: none;
 }
 
-
 /* Hide horizontal tabs at the top of the window */
 #tabbrowser-tabs {
   visibility: collapse !important;
@@ -22,6 +21,23 @@
 /* leaves space for the window buttons */
 #nav-bar {
     margin-top: -30px;
-    margin-right: 139px;
+    margin-right: 138px;
 	height: 29px !important;
 }
+
+/*
+:root[uidensity=compact] #urlbar,
+:root[uidensity=compact] .searchbar-textbox {
+  font-size: unset !important;
+  min-height: 24px !important;
+}
+*/
+
+:root[uidensity=compact] #identity-box {
+  max-height: 22px;
+}
+
+:root[uidensity=compact] #nav-bar .toolbarbutton-1 {
+  padding: 0px !important;
+}
+
